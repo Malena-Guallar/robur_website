@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>robur</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header-container">
+      <a href="index.html" rel="nofollow"
+        ><img src="assets/robur_logo_small.png" alt="robur-logo"
+      /></a>
+
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="">donate</a></li>
+          <li><a href="">our work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- WELCOME SECTION -->
+    <section class="welcome-section-container">
+      <h1>Welcome to Robur</h1>
+      <p>
+        Robur is a non-profit open source software cooperative, our mission is
+        to develop robust and secure digital infrastructure.
+      </p>
+      <div class="">
+        <button class=""><a href="#contact">Contact us</a></button>
+        <button class=""><a href="">Find us on GitHub</a></button>
+        <button class=""><a href="">DONATE</a></button>
+      </div>
+
+      <img
+        src="assets/vector_graphic.png"
+        alt="Vector Graphics"
+        class="background-vector"
+      />
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section class="blog-section-container">
+      <div class="blog-box">
+        <h1 class="">Read our blog!</h1>
+        <p>
+          Lots of informations are available on our blog : publications and
+          projects.
+        </p>
+        <a href="https://blog.robur.coop/"><button>BLOG HERE</button></a>
+      </div>
+    </section>
+
+    <!-- WHAT WE DO SECTION -->
+    <section class="wedo-section-container">
+      <h1>What we do</h1>
+      <p>
+        We are a nonprofit open source software cooperative whose mission is to
+        develop robust and secure digital infrastructure. We strive to enable
+        more people to reliably run their own infrastructure by producing
+        correct, surprise-free software to be deployed in real environments. Our
+        software aims to meet the needs of anyone working in an environment
+        where security and dependability is vital. We write all our code in a
+        high-level memory-safe (and more secure) programming language called
+        OCaml. In addition each piece of software leverages MirageOS (a minimal
+        operating system) to produce bespoke applications tailored to only
+        contain their required functionality. Each service is executed on
+        virtual machines with a size usually around 1-10 MB, much smaller than a
+        UNIX / Linux system, and it boots within milliseconds. Where other
+        approaches try to patch general purpose operating systems by adding more
+        layers, we strive to build a secure system from the ground up. Our
+        approach means our software has a number of security and ease-of-use
+        benefits: each application is small and fast to start our software can
+        be run on all major hypervisors and is ready for the cloud we are able
+        to provide rapid prototyping with a seamless path from prototype to
+        production reduced attack vectors, for example by guarding against
+        things like memory corruption a small code base which means a smaller
+        attack surface, and easier review and audit the complexity is reduced
+        ensuring ease of use and helping people to understand the technology it
+        is possible to formally verify important parts with a proof assistant
+        (proof writing software) We work with clients, partners and funders to
+        design and develop open-source protocols and applications within this
+        approach. If you are interested in seeing how we can assist you in
+        improving your organization's digital infrastructure please see our
+        services offered. If you like our approach to open source software and
+        want to support our work please consider a donation. Or if you are a
+        funder of open source projects focused on security and reliability and
+        like our approach we would love to hear from you.
+      </p>
+
+      <div class="services-container">
+        <h2>Our services</h2>
+        <ul class="services-list">
+          <li>
+            <img src="assets/home.svg" alt="Robust Infrastructure" />
+            <h3>Robust infrastructure</h3>
+          </li>
+
+          <li>
+            <img src="assets/os_icon.png" alt="Open Source Projects" />
+            <h3>Open source projects</h3>
+          </li>
+
+          <li>
+            <img
+              src="assets/what_we_do_graphics_1.png"
+              alt="Bottom-up Approach"
+            />
+            <h3>Bottom-up approach</h3>
+          </li>
+
+          <li>
+            <img
+              src="assets/what_we_do_graphics_2.png"
+              alt="Underscoring Security"
+            />
+            <h3>Underscoring security</h3>
+          </li>
+
+          <li>
+            <img
+              src="assets/what_we_do_graphics_3.png"
+              alt="Reliable Technology"
+            />
+            <h3>Reliable technology</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h1>Contact us</h1>
+          <div class="contact-item">
+            <img src="assets/mail.svg" alt="Mail logo" width="20" />
+            <p>team@robur.io</p>
+          </div>
+
+          <div class="contact-item">
+            <img src="assets/nøgle.svg" alt="Key logo" width="25" />
+            <p>OpenPGP key: 0CBFC7AA</p>
+          </div>
+
+          <div class="contact-item">
+            <img src="assets/finger.svg" alt="Fingerprint logo" width="25" />
+            <p>Fingerprint: 27EB8C7B 7BC95BDC 9B4B63CD 599270C7 0CBFC7AA.</p>
+          </div>
+        </div>
+
+        <div class="donate-box">
+          <h1>Fund our work!</h1>
+          <p>
+            Robur is a projct of the Center for the Cultivation of Technology, a
+            charity registered in Germany. Donations to robur are tax-deductible
+            in Europe.
+          </p>
+          <button>donate now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION  -->
+    <section>
+      <h1>Our projects</h1>
+
+      <object
+        type="text/html"
+        data="projects.html"
+        width="100%"
+        height="1000px"
+      >
+        <p>
+          Le contenu ne peut pas être chargé.
+          <a href="projects.html">Voir ici</a>
+        </p>
+      </object>
+    </section>
+
+    <!-- TEAM SECTION  -->
+    <section>
+      <h1>our team</h1>
+      <p>
+        Robur is a software development cooperative specializing in robust and
+        secure digital infrastructure written in OCaml.
+      </p>
+      <h2>current members</h2>
+      <div>
+        <h3>Hannes</h3>
+        <p>
+          Hannes enjoys living in Berlin, Germany. Until end of 2017, he used to
+          be a research associate at the University of Cambridge in the rems
+          project. He enjoys to write code, and also traveling and repairing his
+          recumbent bicycle, and being a barista. Hannes did his PhD in computer
+          science about formal verification of imperative code (using a
+          higher-order separation logic and the theorem prover Coq). Hannes
+          co-authored not-quite-so-broken TLS, a TLS implementation from the
+          ground up in OCaml, and contributes to the MirageOS project as a core
+          team member. He is working on various projects, including opam signing
+          and netsem, an executable formal model of TCP/IP which can act as a
+          test validator. His blog is at https://hannes.robur.coop.
+        </p>
+      </div>
+      <div>
+        <h3>Reynir</h3>
+        <p>
+          Reynir goes foraging, sniffing and picking interesting plants found in
+          nature, cycling with one, two or more wheels, and knits now and then.
+          Based in Århus, Denmark he goes winterbathing in the cold sea. Reynir
+          studied computer science at Aarhus University with an interest in
+          programming languages and formal verification. After some years
+          working in industry with heterogenous unix systems followed by two
+          years of various volunteer work he joined Robur in 2020. He is still
+          heavily involved as a developer and system administrator in data.coop,
+          an association that collectively owns and run servers offering digital
+          services for their members.
+        </p>
+      </div>
+      <div>
+        <h3>dinosaure</h3>
+        <p>
+          Dinosaure wants the majority of its services to be unikernels in
+          OCaml. A big reader of RFCs, it implements protocols and formats in
+          OCaml. He has been participating in MirageOS for quite some time and
+          continues to promote its use and develop usable unikernels such as
+          paste.osau.re, bob, and his blog.
+        </p>
+      </div>
+    </section>
+  </body>
+
+  <!-- FOOTER  -->
+  <footer>
+    <div class="">
+      <hr />
+      <img src="assets/robur_logo_footer.png" alt="robur-logo" />
+      <p>
+        Robur - @ Copyright 2020. All rights reserved. - Webdesign by
+        <a href="https://rabotnik.coop" target="_blank">rabotnik.coop</a>
+      </p>
+    </div>
+  </footer>
+</html>
