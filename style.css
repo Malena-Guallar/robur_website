@@ -61,7 +61,6 @@ h1 {
 
   .header-container nav ul {
     gap: 5rem;
-    /* border: solid white 1px; */
   }
 }
 
@@ -73,9 +72,14 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 4rem 1rem;
-  overflow: hidden; 
+  padding: 4rem 2rem;
+  overflow: hidden;
   z-index: 0;
+  gap: 1.5rem;
+}
+
+.welcome-section-container h1 {
+  font-size: 1.8rem;
 }
 
 .background-vector {
@@ -86,16 +90,21 @@ h1 {
   pointer-events: none;
 }
 
-/* Desktop : version étendue */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 @media (min-width: 768px) {
   .welcome-section-container {
     padding: 8rem 2rem;
   }
 
-  .background-vector {
+  .buttons-container {
+    flex-direction: row;
   }
 }
-
 
 /* BLOG SECTION */
 
@@ -106,7 +115,15 @@ h1 {
 
 .blog-box {
   border: #fff solid 1px;
-  padding: 1rem;
+  padding: 2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .blog-section-container {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
 }
 
 /* WHAT WE DO SECTION  */
@@ -131,11 +148,21 @@ h1 {
   width: 50%;
 }
 
+@media (min-width: 768px) {
+  .services-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .services-list img {
+    width: 30%;
+  }
+}
+
 /* CONTACT SECTION */
 
 .contact-section {
   background-color: #16cdad;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .contact-container {
@@ -148,7 +175,7 @@ h1 {
   border: #fff solid 1px;
   background-color: #fff;
   color: #141a24;
-  padding: 1rem;
+  padding: 2rem 3rem;
 }
 
 .contact-item {
@@ -162,7 +189,30 @@ h1 {
 .donate-box {
   border: #fff solid 1px;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+  }
+
+  .contact-box,
+  .donate-box {
+    width: 20rem;
+  }
+
+  .donate-box button {
+    margin-top: 2.8rem;
+  }
 }
 
 /* PROJECTS SECTION */
@@ -194,12 +244,18 @@ h1 {
   width: 30%;
 }
 
+@media (min-width: 768px) {
+  .footer img {
+    width: 10%;
+  }
+}
+
 /* BUTTONS */
 
 .button {
   background-color: transparent;
   border: solid #fff 1px;
-  padding: 0.6rem;
+  padding: 0.6rem 1.5rem;
   color: #fff;
 }
 
