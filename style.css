@@ -176,5 +176,19 @@ h1 {
 }
 
 .footer img {
-    width: 30%;
+  width: 30%;
+}
+
+/* BUTTONS */
+
+.button {
+  background-color: transparent;
+  border: solid #fff 1px;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
 }
