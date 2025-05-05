@@ -235,14 +235,19 @@ h1 {
 }
 
 /* FOOTER */
-
 .footer {
-  padding: 0 1rem;
-  text-align: justify;
+  padding: 1rem;
+  text-align: center;
 }
 
 .footer img {
   width: 30%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
 }
 
 @media (min-width: 768px) {
@@ -250,6 +255,7 @@ h1 {
     width: 10%;
   }
 }
+
 
 /* BUTTONS */
 
