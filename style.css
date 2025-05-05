@@ -264,3 +264,15 @@ h1 {
   text-decoration: none;
   color: #fff;
 }
+
+.button:hover,
+.button:active {
+  color: #141a24;
+  background-color: #fff;
+  transition-duration: 0.4s;
+}
+
+.button a:hover,
+.button a:active {
+  color: #141a24;
+}
