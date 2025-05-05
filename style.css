@@ -258,21 +258,33 @@ h1 {
   border: solid #fff 1px;
   padding: 0.6rem 1.5rem;
   color: #fff;
-}
-
-.button a {
+  cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.05s ease;
 }
 
-.button:hover,
+@media (min-width: 768px) {
+  .button:hover {
+    color: #141a24;
+    background-color: #fff;
+    transition-duration: 0.4s;
+  }
+
+  .button:focus {
+    outline: solid #fff 2px;
+  }
+
+  .button:active {
+    background-color: inherit;
+    color: inherit;
+    transform: inherit;
+  }
+}
+
 .button:active {
-  color: #141a24;
+  transform: scale(0.9);
   background-color: #fff;
-  transition-duration: 0.4s;
-}
-
-.button a:hover,
-.button a:active {
   color: #141a24;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
