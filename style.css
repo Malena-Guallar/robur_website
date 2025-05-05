@@ -48,12 +48,13 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  transition: font-size 0.3s ease, font-weight 0.3s ease;
+  display: inline-block;
+  transition: transform 0.3s ease, font-weight 0.3s ease;
 }
 
 .header-container nav ul li a:touch {
   font-weight: 700;
-  font-size: 110%;
+  transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
@@ -72,7 +73,7 @@ h1 {
 
   .header-container nav ul li a:hover {
     font-weight: 700;
-    font-size: 110%;
+    transform: scale(1.2);
   }
 }
 
