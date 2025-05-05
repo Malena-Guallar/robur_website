@@ -140,6 +140,7 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   font-size: 0.8rem;
+  justify-items: center;
 }
 .services-list h3 {
   font-weight: 400;
@@ -154,7 +155,7 @@ h1 {
   }
 
   .services-list img {
-    width: 30%;
+    width: 60%;
   }
 }
 
