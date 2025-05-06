@@ -22,7 +22,8 @@ body {
 }
 
 p,
-a {
+a,
+li {
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -44,7 +45,8 @@ h3 {
 
 @media (min-width: 768px) {
   p,
-  a {
+  a,
+  li {
     font-size: 1rem;
   }
 }
@@ -200,7 +202,7 @@ h3 {
 
 @media (min-width: 768px) {
   .wedo-section-container {
-    margin: 0 2rem;
+    margin: 0 5rem;
     line-height: 2rem;
   }
 
@@ -293,6 +295,7 @@ h3 {
 @media (min-width: 768px) {
   .team-section-container {
     line-height: 2rem;
+    margin: 0 5rem;
   }
 }
 
